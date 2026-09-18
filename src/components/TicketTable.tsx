@@ -145,11 +145,11 @@ export default function TicketTable({
                 className="hover:bg-slate-50/70 dark:hover:bg-slate-800/40"
               >
                 <td className="px-5 py-4">
-                  <p className="text-xs font-bold text-slate-400">
+                  <p className="text-sm font-bold text-slate-400">
                     {ticket.id}
                   </p>
 
-                  <p className="mt-1 font-semibold text-slate-800 dark:text-slate-200">
+                  <p className="mt-1 text-base font-semibold text-slate-800 dark:text-slate-200">
                     {ticket.title}
                   </p>
                 </td>
@@ -160,7 +160,7 @@ export default function TicketTable({
                       {ticket.initials}
                     </div>
 
-                    <span className="text-sm font-medium text-slate-700 dark:text-slate-300">
+                    <span className="text-base font-medium text-slate-700 dark:text-slate-300">
                       {ticket.customer}
                     </span>
                   </div>
@@ -182,7 +182,7 @@ export default function TicketTable({
                   </span>
                 </td>
 
-                <td className="px-5 py-4 text-sm text-slate-500">
+                <td className="px-5 py-4 text-base text-slate-500">
                   {ticket.date}
                 </td>
 

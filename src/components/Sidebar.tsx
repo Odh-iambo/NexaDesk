@@ -91,7 +91,7 @@ export default function Sidebar({
                 <button
                   key={item.label}
                   onClick={() => navigate(item.page)}
-                  className={`flex w-full items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium transition ${
+                  className={`flex w-full items-center gap-3 rounded-xl px-3 py-3 text-base font-medium transition ${
                     active
                       ? "bg-slate-900 text-white shadow-sm dark:bg-white dark:text-slate-900"
                       : "text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
@@ -109,7 +109,7 @@ export default function Sidebar({
           </p>
 
           <nav className="space-y-1">
-            <button className="flex w-full items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800">
+            <button className="flex w-full items-center gap-3 rounded-xl px-3 py-3 text-base font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800">
               <Bell size={19} />
               Notifications
               <span className="ml-auto rounded-full bg-red-100 px-2 py-0.5 text-[10px] font-bold text-red-600">

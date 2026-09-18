@@ -46,7 +46,7 @@ export default function Stats() {
           >
             <div className="flex items-start justify-between">
               <div>
-                <p className="text-sm font-medium text-slate-500">
+                <p className="text-base font-medium text-slate-500 dark:text-slate-400">
                   {stat.label}
                 </p>
 
@@ -60,7 +60,7 @@ export default function Stats() {
               </div>
             </div>
 
-            <div className="mt-4 flex items-center gap-2 text-xs">
+            <div className="mt-4 flex items-center gap-2 text-sm">
               <span className="flex items-center gap-1 font-semibold text-emerald-600">
                 <TrendingUp size={13} />
                 {stat.change}

@@ -36,11 +36,11 @@ export default function Analytics() {
           Insights
         </p>
 
-        <h1 className="mt-1 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">
+        <h1 className="mt-1 text-3xl font-bold text-slate-900 dark:text-white sm:text-3xl">
           Analytics
         </h1>
 
-        <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
+        <p className="mt-2 text-base leading-6 text-slate-500 dark:text-slate-400">
           Understand ticket volume, resolution performance, and support trends.
         </p>
       </div>

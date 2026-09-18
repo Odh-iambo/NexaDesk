@@ -17,11 +17,11 @@ export default function Tickets() {
           Workspace
         </p>
 
-        <h1 className="mt-1 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">
+        <h1 className="mt-1 text-3xl font-bold text-slate-900 dark:text-white sm:text-3xl">
           Tickets
         </h1>
 
-        <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
+        <p className="mt-2 text-base leading-6 text-slate-500 dark:text-slate-400">
           Manage incoming requests and keep your support queue organized.
         </p>
       </div>

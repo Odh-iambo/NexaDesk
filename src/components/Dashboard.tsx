@@ -17,11 +17,11 @@ export default function Dashboard() {
             Overview
           </p>
 
-          <h1 className="mt-1 text-2xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
+          <h1 className="mt-1 text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-3xl">
             Support dashboard
           </h1>
 
-          <p className="mt-2 max-w-2xl text-sm text-slate-500 dark:text-slate-400">
+          <p className="mt-2 max-w-2xl text-base leading-6 text-slate-500 dark:text-slate-400">
             Monitor support requests, team activity, and customer issues from
             one place.
           </p>

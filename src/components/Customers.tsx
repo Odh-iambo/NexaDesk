@@ -68,11 +68,11 @@ export default function Customers() {
           Workspace
         </p>
 
-        <h1 className="mt-1 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">
+        <h1 className="mt-1 text-3xl font-bold text-slate-900 dark:text-white sm:text-3xl">
           Customers
         </h1>
 
-        <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
+        <p className="mt-2 text-base leading-6 text-slate-500 dark:text-slate-400">
           View customer information and support history.
         </p>
       </div>
@@ -116,7 +116,7 @@ export default function Customers() {
                       </div>
 
                       <div>
-                        <p className="font-semibold text-slate-800 dark:text-slate-200">
+                        <p className="text-base font-semibold text-slate-800 dark:text-slate-200">
                           {customer.name}
                         </p>
 
@@ -128,7 +128,7 @@ export default function Customers() {
                   </td>
 
                   <td className="px-5 py-4">
-                    <div className="space-y-1 text-sm text-slate-500">
+                    <div className="space-y-1 text-base text-slate-500">
                       <p className="flex items-center gap-2">
                         <Mail size={14} />
                         {customer.email}
